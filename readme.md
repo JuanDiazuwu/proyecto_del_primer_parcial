@@ -17,11 +17,13 @@ GNU Bash
 	[Github]()
 	[Gitlab]()
 	[Bitbucket]()
+
 *Jessica Melissa Núñez Castro*
 	Matricula: 348509
 	[Github]()
 	[Gitlab]()
 	[Bitbucket]()
+
 *Juan Antonio Díaz Fernández*
 	Matricula: 348637
 	[Github]()

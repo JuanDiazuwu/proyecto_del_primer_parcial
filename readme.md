@@ -12,20 +12,26 @@ GNU Bash
 
 ## Autores
 
-*Denzel Alexander Muñoz Santana*
+**Denzel Alexander Muñoz Santana**
+
 	Matricula: 348802
+
 	[Github]()
 	[Gitlab]()
 	[Bitbucket]()
 
-*Jessica Melissa Núñez Castro*
+**Jessica Melissa Núñez Castro**
+
 	Matricula: 348509
+
 	[Github]()
 	[Gitlab]()
 	[Bitbucket]()
 
-*Juan Antonio Díaz Fernández*
+**Juan Antonio Díaz Fernández**
+
 	Matricula: 348637
+
 	[Github]()
 	[Gitlab]()
 	[Bitbucket]()

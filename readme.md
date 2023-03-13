@@ -56,3 +56,5 @@ Este repositorio contiene un programa hecho en bash, este tiene como objetivo ay
 ## Requisitos
 
 Para ejecutar este programa es necesario tener Bash Instalado en su equipo. Puede descargar Bash [aqui](https://www.gnu.org/software/bash/)
+
+## Instalación

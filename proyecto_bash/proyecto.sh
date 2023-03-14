@@ -97,32 +97,51 @@ if [ $1 == "-a" ]; then
 		read -p "Elija una opción: " selection_user
 		echo $selection_user
 		
-		case $selection_user in 
-			1 )
-				while true; do
-				       echo "Buenas"	
-				done
-			;;
-			2 )
-				while true; do
-				       echo "Buenas"	
-				done
-			;;
-			3 )
-				while true; do
-				       echo "Buenas"	
-				done
-			;;	
-			4 )
-				while true; do
-				       echo "Buenas"	
-				done
-			;;	
-			5 )
-                		echo "Nos vemos!!! Gracias por utilizar nuestro programa <3"
-                		break
-			;;	
-		esac
+		case $selection_user in
+            1|SCRUM|Scrum|scrum|1SCRUM )
+                while true; do
+                    menu_two "SCRUM"
+                    return_to_menu_two=$?
+                    if [ $return_to_menu_two == 1 ];then
+                        break
+                    fi
+                done
+            ;;
+            2|XP|Xp|xp|2XP )
+                while true; do
+                    menu_two "X.P"
+                    return_to_menu_two=$?
+                    if [ $return_to_menu_two == 1 ];then
+                        break
+                    fi
+                done
+            ;;
+            3|Kanban|kanban|3Kanban )
+                while true; do
+                    menu_two "Kanban"
+                    return_to_menu_two=$?
+                    if [ $return_to_menu_two == 1 ];then
+                        break
+                    fi
+                done
+            ;;
+            4|Crystal|crystal|4Crystal )
+                while true; do
+                    menu_two "Crystal"
+                    return_to_menu_two=$?
+                    if [ $return_to_menu_two == 1 ];then
+                        break
+                    fi
+                done
+            ;;
+            5|Exit|exit|Salir|salir)
+                echo "Nos vemos!!! Gracias por utilizar nuestro programa <3"
+                break
+            ;;
+            *)
+                echo "Porfavor escoga una respuesta correcta"
+            ;;
+        esac
 	done
 elif [ $1 == "-t" ];then
 	while true; do

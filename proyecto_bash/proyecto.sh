@@ -25,7 +25,7 @@ function menu_two {
 			read_uwu $1
 		;;
 		5)
-			echo "Falta esta parte"
+			return 1
 		;;
 		*)
 			echo "Porfavor escoja una respuesta correcta"
@@ -133,27 +133,43 @@ elif [ $1 == "-t" ];then
         	echo "3. Modelo V"
         	echo "4. Terminar ejecución"
         	read -p "Elija una opción: " selection_user
-        	case $selection_user in 
-			1 )
-				while true; do
-					menu_two "cascada"	
-				done
-			;;
-			2 )
-				while true; do
-				       echo "Buenas"	
-				done
-			;;
-			3 )
-				while true; do
-				       echo "Buenas"	
-				done
-			;;	
-			4 )
-				echo "Nos vemos!!! Gracias por utilizar nuestro programa <3"
-				break
-			;;
-		esac   
+        	
+        	case $selection_user in
+            1|Cascada|cascada|1Cascada)
+                while true; do
+                    menu_two "Cascada"
+                    return_to_menu_two=$?
+                    if [ $return_to_menu_two == 1 ];then
+                        break
+                    fi
+                done
+            ;;
+            2|Espiral|espiral|2Espiral)
+                while true; do
+                    menu_two "Espiral"
+                    return_to_menu_two=$?
+                    if [ $return_to_menu_two == 1 ];then
+                        break
+                    fi
+                done
+            ;;
+            3|ModeloV|modelov|modeloV|3ModeloV)
+                while true; do
+                    menu_two "ModeloV"
+                    return_to_menu_two=$?
+                    if [ $return_to_menu_two == 1 ];then
+                        break
+                    fi
+                done
+            ;;
+            4|Exit|exit|Salir|salir)
+                echo "Nos vemos!!! Gracias por utilizar nuestro programa <3"
+                break
+            ;;
+            *)
+                echo "Porfavor escoga una respuesta correcta"
+            ;;
+        esac
 	done
 else
 	echo "Escoge un parámetro válido: [-a | -t]"

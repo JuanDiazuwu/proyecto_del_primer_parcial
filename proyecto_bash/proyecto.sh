@@ -45,7 +45,7 @@ function save_info {
 
 function search {
 	read -p "Ingrese la palabra que quiere buscar: " search_word
-	if grep -Eo '\[[^]]+\]' "$1.info" | grep "$search_word"; then 
+	if grep -Eo '\[[^]]+\]' "$1.info" | grep "$search_word"; then #if grep -e "$search_word" "$1.info"; then
 		echo "La palabra "$search_word" si existe"
 	else
 		echo "La palabra "$search_word" no existe"
@@ -67,6 +67,7 @@ function delete {
 	#echo "EL valor de aux: $aux"
 	if [ $aux == 0 ]; then 
 		sed -i "/\[.*$delete_word.*\]/d" "$1.info" 
+		echo "El concepto se elimino correctamente"
 	else
 		echo "El concepto no existe en $1.info"
 	fi
@@ -95,7 +96,6 @@ if [ $1 == "-a" ]; then
 		echo "5. Terminar ejecución"
 		echo ""
 		read -p "Elija una opción: " selection_user
-		echo $selection_user
 		
 		case $selection_user in
             1|SCRUM|Scrum|scrum|1SCRUM )

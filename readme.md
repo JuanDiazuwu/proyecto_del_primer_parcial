@@ -14,6 +14,8 @@ GNU Bash
 
 **Denzel Alexander Muñoz Santana**
 
+	Usuario: Denzypaulito
+
 	Matricula: 348802
 
 	[Github]()
@@ -22,6 +24,8 @@ GNU Bash
 
 **Jessica Melissa Núñez Castro**
 
+	Usuario: JessyNunez
+
 	Matricula: 348509
 
 	[Github]()
@@ -29,6 +33,8 @@ GNU Bash
 	[Bitbucket]()
 
 **Juan Antonio Díaz Fernández**
+
+	Usuario: JuanDiazuwu
 
 	Matricula: 348637
 
@@ -57,4 +63,8 @@ Este repositorio contiene un programa hecho en bash, este tiene como objetivo ay
 
 Para ejecutar este programa es necesario tener Bash Instalado en su equipo. Puede descargar Bash [aqui](https://www.gnu.org/software/bash/)
 
-## Instalación del rep
+## Github, Gitlab, Bitbucket del Proyecto
+
+	[Github](https://github.com/JuanDiazuwu/proyecto_del_primer_parcial)
+	[Gitlab]()
+	[Bitbucket]()

@@ -18,8 +18,9 @@ GNU Bash
 
 	Matricula: 348802
 
-[Github](https://github.com/Denzypaulito)
-[Gitlab](https://gitlab.com/Denzypaul)
+* Github de Denzel: [Github](https://github.com/Denzypaulito)
+
+* Gitlab de Denzel: [Gitlab](https://gitlab.com/Denzypaul)
 
 **Jessica Melissa Núñez Castro**
 
@@ -27,8 +28,9 @@ GNU Bash
 
 	Matricula: 348509
 
-[Github](https://github.com/JessyNunez)
-[Gitlab](https://gitlab.com/JessyNunez)
+* Github de Jessica: [Github](https://github.com/JessyNunez)
+
+* Gitlab de Jessica: [Gitlab](https://gitlab.com/JessyNunez)
 
 **Juan Antonio Díaz Fernández**
 
@@ -36,8 +38,9 @@ GNU Bash
 
 	Matricula: 348637
 
-[Github](https://github.com/JuanDiazuwu)
-[Gitlab](https://gitlab.com/a348637)
+* Github de Juan: [Github](https://github.com/JuanDiazuwu)
+
+* Gitlab de Juan: [Gitlab](https://gitlab.com/a348637)
 
 ## Descripción
 

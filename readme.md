@@ -65,9 +65,11 @@ Para ejecutar este programa es necesario tener Bash Instalado en su equipo. Pued
 
 ## Github, Gitlab, Bitbucket del Proyecto
 
-[Github](https://github.com/JuanDiazuwu/proyecto_del_primer_parcial)
-[Gitlab](https://gitlab.com/escuela5653011/proyecto_del_primer_parcial/-/commits/master)
-[Bitbucket](https://bitbucket.org/git-escuela/proyecto-primer-parcial/src/master/)
+* Proyecto en Github: [Github](https://github.com/JuanDiazuwu/proyecto_del_primer_parcial)
+
+* Proyecto en Gitlab: [Gitlab](https://gitlab.com/a348637/proyecto_primer_parcial_dbep)
+
+* Proyecto en Github: [Bitbucket](https://bitbucket.org/git-escuela/proyecto-primer-parcial/src/master/)
 
 ## Ejecución 
 
